@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/_normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<header class="header">
+
+	</header>
+	<main class="main">
+		<div class="container">
+			<form action="#" method="GET" class="form">
+				<div class="form__row">
+					<label for="name" class="form__label">
+						Повне ім'я
+					</label>
+					<input type="text" name="name" id="name" class="form__input" required>
+				</div>
+				<div class="form__row">
+					<label for="email" class="form__label">
+						Email
+					</label>
+					<input type="email" name="email" id="email" class="form__input" required>
+				</div>
+				<div class="form__row">
+					<label for="password" class="form__label">
+						Пароль
+					</label>
+					<input type="password" name="password" id="password" class="form__input"  minlength="8" required>
+				</div>
+				<div class="form__row">
+					<label for="password1" class="form__label">
+						Пароль ще раз
+					</label>
+					<input type="password" name="password1" id="password1" class="form__input"  minlength="8" required>
+				</div>
+				<div class="form__row">
+					<label class="form__label">
+						Стать
+					</label>
+					<div class="form__group">
+						<label><input type="radio" name="gender" value="man" class="form__input"> чоловіча</label>
+						<label><input type="radio" name="gender" value="women" class="form__input"> жіноча</label>
+					</div>
+				</div>
+				<div class="form__row">
+					<label for="number" class="form__label">
+						Вік
+					</label>
+					<input type="number" name="number" id="number" class="form__input" required>
+				</div>
+				<div class="form__row">
+					<label for="select" class="form__label">Курс</label>
+					<select name="select" id="select">
+						<option selected disabled>-=Вибріть курс=-</option>
+						<option>Front-End</option>
+						<option>Back-End</option>
+						<option>Project Management</option>
+						<option>QA Manual</option>
+					</select>
+				</div>
+				<div class="form__row">
+					<label for="textarea" class="form__label">Повна адреса</label>
+					<textarea name="textarea" id="textarea" class="textarea"
+						placeholder="Країна, регіон, місто / селище, вулиця"></textarea>
+				</div>
+				<div class="form__row">
+					<input type="checkbox" id="check" name="agree" class="input__check">
+					<label for="check" class="label-check">Я погоджуюсь з обробкою персональних даних</label>
+				</div>
+				<div class="form__buttons">
+					<button type="reset" class="form__btn">Очистити форму</button>
+					<button type="submit" class="form__btn">Зареєструватися</button>
+				</div>
+		</form>
+	</div>
+	</main>
+	<footer class="footer">
+
+	</footer>
+</body>
+
+</html>

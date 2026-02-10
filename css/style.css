@@ -1,0 +1,55 @@
+@import url("_normalize.css");
+
+html,
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+}
+.container {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 0 15px;
+}
+
+.form {
+	padding: 20px 25px;
+	background-color: rgb(205, 203, 203);
+}
+.form__row {
+	margin-bottom: 10px;
+}
+.form__label {
+	display: inline-block;
+	width: 40%;
+	margin-right: 50px;
+}
+.form__input,
+.form__group,
+[type="radio"] {
+	display: inline-block;
+}
+textarea {
+	resize: vertical;
+	padding: 10px;
+}
+.input__check {
+	width: 18px;
+	height: 18px;
+}
+.label-check {
+	font-size: 16px;
+}
+.form__buttons {
+	max-width: 350px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.form__btn {
+	display: block;
+	padding: 5px 10px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #403f3f;
+	cursor: pointer;
+}
